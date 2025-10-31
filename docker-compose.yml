@@ -18,7 +18,7 @@ services:
       context: ./backend-springbootapp
       dockerfile: ../backend-springbootapp/backend.Dockerfile
     ports:
-      - "2025:2000"
+      - "2000:2000"
     depends_on:
       - mysqldb
     restart: on-failure
